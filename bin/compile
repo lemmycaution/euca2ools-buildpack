@@ -1,7 +1,6 @@
 #!/bin/bash
 
-apt-get update
-apt-get install euca2ools
+export DEBIAN_FRONTEND=noninteractive && apt-get update -y && apt-get install euca2ools -y
 
 echo "-----> Done."
 
