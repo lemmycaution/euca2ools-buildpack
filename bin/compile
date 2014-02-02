@@ -1,0 +1,8 @@
+#!/bin/bash
+
+apt-get update
+apt-get install euca2ools
+
+echo "-----> Done."
+
+exit 0

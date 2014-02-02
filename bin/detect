@@ -1,0 +1,4 @@
+#!/bin/sh
+# bin/detect <build-dir>
+
+echo "euca2ools" && exit 0
